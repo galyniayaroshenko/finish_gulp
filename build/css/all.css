@@ -1,0 +1,22 @@
+body{
+    background: -webkit-linear-gradient(top, left, red);
+    background: linear-gradient(top, left, red);
+    color: red;
+}
+body {
+    font-size: 28px;
+}
+.box {
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+
+
+/* Include this file in your html if you are using the CSP mode. */
+.box{
+	font-size: 56px;
+}
+.ng-animate.item:not(.left):not(.right) {
+  -webkit-transition: 0s ease-in-out left;
+  transition: 0s ease-in-out left
+}

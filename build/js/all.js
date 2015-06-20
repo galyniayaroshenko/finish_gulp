@@ -1,0 +1,1 @@
+function ololo(){console.log("ololo")}var a=772,b=555;alert("olololo");

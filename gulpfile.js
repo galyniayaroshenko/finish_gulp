@@ -22,7 +22,7 @@ gulp.task('buildLib', function() {
   gulp.src(libraries)
       .pipe(concat('all.js'))
       .pipe(uglify())
-      .pipe(gulp.dest('./build'));
+      .pipe(gulp.dest('./build/js'));
 });
 
 gulp.task('webserver', function() {
